@@ -1,5 +1,6 @@
 {
     "name": "게임 메이커스 테스트",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "device": "*"
