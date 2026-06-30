@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v4.0.14/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.1","target":"arcade","targetVersion":"4.0.14","repo":"kim40417179-creator/rpdlaapdlzjtm"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v4.0.14/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.2","target":"arcade","targetVersion":"4.0.14","repo":"kim40417179-creator/rpdlaapdlzjtm"}
 // total=1959317 new=2.63% cached=60.79% other=36.57%
 (function (ectx) {
 'use strict';
@@ -496,7 +496,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P76254(s) {
+function _main___P76320(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -979,13 +979,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P76254.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P76254.continuations = [  ]
+_main___P76320.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P76320.continuations = [  ]
 
-function _main___P76254_mk(s) {
+function _main___P76320_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P76254, depth: s.depth + 1,
+        parent: s, fn: _main___P76320, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -44837,5 +44837,5 @@ const sprites_BaseSpriteSayRenderer__C59430_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___61588","tile2___61585","tile1___61586","tile3___61587","tile4___61589","mySprite___61583"])
 
-return _main___P76254
+return _main___P76320
 })
